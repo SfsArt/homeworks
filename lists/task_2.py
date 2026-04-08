@@ -1,11 +1,18 @@
 
+numbers = []
 
-for i in range(1, 6):
-    num = int(input("Введіть число: "))
-    
+print("Введіть 5 чисел:")
 
-# nums = []
+for i in range(5):
+    numbers.append(int(input("Число: ")))
 
-# nums.append()
 
-# print(nums)
+
+print(numbers)
+
+total = sum(numbers)
+middle = total / 5
+
+print(total)
+
+print(middle)
